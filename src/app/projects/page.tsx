@@ -193,7 +193,7 @@ const Project = () => {
                   </p>
                   <Link
                     target="_blank"
-                    href={"https://calculator-app-rose-sigma.vercel.app/"}
+                    href={"https://calculator-app-jet-omega.vercel.app/"}
                   >
                     <p className="leading-relaxed text-blue-500 font-bold hover:underline">
                       View Live
