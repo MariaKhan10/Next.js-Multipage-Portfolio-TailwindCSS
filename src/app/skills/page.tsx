@@ -6,7 +6,7 @@ const Skills = () => {
     <div id="skills">
       <section className="text-white body-font">
         <div style={{ background: gradientBackground }} className="py-10 px-8">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-24 pt-5 mx-auto">
             <div className="flex flex-col text-center w-full mb-22">
               <h2 className="text-sm uppercase tracking-widest font-semibold mb-1 text-blue-200">
                 Skills
