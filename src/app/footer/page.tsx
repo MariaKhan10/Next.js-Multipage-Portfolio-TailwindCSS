@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-indigo-200"> 
       <footer className="text-gray-600 body-font">
-        <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
+        <div className="container px-5 py-5 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image
               alt="Maria Khan Logo"
