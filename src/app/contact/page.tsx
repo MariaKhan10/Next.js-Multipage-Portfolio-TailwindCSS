@@ -46,6 +46,8 @@ const Contact = () => {
         <p className="leading-relaxed mb-5 white-600">
           Feel Free to Contact
         </p>
+        <form   action="https://formspree.io/f/mldenjvj"
+  method="POST">
         <div className="relative mb-4">
           <label htmlFor="name" className="leading-7 text-sm white-600">
             Name
@@ -54,7 +56,7 @@ const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required
           />
         </div>
         <div className="relative mb-4">
@@ -65,9 +67,23 @@ const Contact = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required
           />
         </div>
+
+        <div className="relative mb-4">
+          <label htmlFor="subject" className="leading-7 text-sm white-600">
+            Subject
+          </label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            required
+          />
+        </div>
+
         <div className="relative mb-4">
           <label htmlFor="message" className="leading-7 text-sm white-600">
             Message
@@ -76,12 +92,13 @@ const Contact = () => {
             id="message"
             name="message"
             className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            defaultValue={""}
+            defaultValue={""} required
           />
         </div>
         <button className="text-white bg-indigo-900 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
           Send Message
         </button>
+        </form>
         
       </div>
     </div>
