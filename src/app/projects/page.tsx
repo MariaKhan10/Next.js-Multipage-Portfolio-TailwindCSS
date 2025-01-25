@@ -16,6 +16,35 @@ const Project = () => {
             Tap/Click Any Project to View Live
           </div>
           <div className="flex flex-wrap -m-5 -mt-[5rem]">
+              {/* { Project 1 } */}
+              <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <Image
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src={require("../../../public/pictures/foodtuck.png")}
+                />
+                <div className="px-8 py-6 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                    Hackathon Market Place Food Website
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    A Restaurant Based Food Delivery Website built with Next.js and Sanity.
+                  </h1>
+                  <p className="leading-relaxed line-clamp-2 text-gray-700">
+                    This is the Project I have made during Hackathon Challenge in Governor House.
+                  </p>
+                  <Link
+                    target="_blank"
+                    href={"https://ui-ux-hackathon-q2.vercel.app/"}
+                  >
+                    <p className="leading-relaxed text-blue-500 font-bold hover:underline">
+                      View Live
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
             {/* { Project 1 } */}
             <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative">
@@ -297,6 +326,38 @@ const Project = () => {
                 </div>
               </div>
             </div>
+
+            {/* { Project 1 } */}
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
+              <div className="flex relative">
+                <Image
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src={require("../../../public/pictures/foodtuck.png")}
+                />
+                <div className="px-8 py-6 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
+                    Hackathon Market Place Food Website
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    A Restaurant Based Food Delivery Website built with Next.js and Sanity.
+                  </h1>
+                  <p className="leading-relaxed line-clamp-2 text-gray-700">
+                    This is the Project I have made during Hackathon Challenge in Governor House.
+                  </p>
+                  <Link
+                    target="_blank"
+                    href={"https://ui-ux-hackathon-q2.vercel.app/"}
+                  >
+                    <p className="leading-relaxed text-blue-500 font-bold hover:underline">
+                      View Live
+                    </p>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
