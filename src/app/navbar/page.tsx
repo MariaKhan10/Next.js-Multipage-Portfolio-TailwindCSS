@@ -20,11 +20,13 @@ const Navbar = () => {
             <Link href="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
               <Image
                 alt="logo"
-                width={40}
-                height={80}
+                width={30}
+                height={60}
                 src={require("../../../public/pictures/logofrontend.jpg")}
               />
-              <span className={`${greatVibes.className} "title-font sm:text-4xl text-5xl mb-4 font-bold text-[#f3a136] mt-4 ml-5 mr-1" `}> Maria Khan </span>
+              <span  className={`${greatVibes.className} title-font text-2xl sm:text-5xl lg:text-4xl font-bold text-[#f3a136] mt-4 ml-5 mr-1 mb-2`}
+>
+  Maria Khan </span>
             </Link>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
               <Link href="/" className="mr-5 text-white hover:text-gray-300 hover:underline">
