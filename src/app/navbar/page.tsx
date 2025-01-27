@@ -1,4 +1,11 @@
-import Image from "next/image";
+import { Great_Vibes } from 'next/font/google';
+import Image from 'next/image';
+
+const greatVibes = Great_Vibes({
+  weight: ['400'], // Specify weights if necessary
+  subsets: ['latin'], // Specify subsets
+  display: 'swap', // Use font-display: swap for better performance
+});
 import Link from "next/link";
 import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -17,7 +24,7 @@ const Navbar = () => {
                 height={80}
                 src={require("../../../public/pictures/logofrontend.jpg")}
               />
-              <span className="ml-3 text-xl">Maria Khan</span>
+              <span className={`${greatVibes.className} "title-font sm:text-4xl text-5xl mb-4 font-bold text-[#f3a136] mt-4 ml-5 mr-1" `}> Maria Khan </span>
             </Link>
             <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
               <Link href="/" className="mr-5 text-white hover:text-gray-300 hover:underline">
